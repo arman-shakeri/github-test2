@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
         //thisIsTest();
 
         Toast.makeText(this, "this is a test", Toast.LENGTH_SHORT).show();
-        thisIsTest();
     }
     
     public void thisIsTest(){
