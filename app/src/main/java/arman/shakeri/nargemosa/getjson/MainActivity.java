@@ -36,18 +36,19 @@ public class MainActivity extends AppCompatActivity {
     }
     
     public void thisIsTest(){
-    
-        //this is a test
+
+        Toast.makeText(this, "r u sure this is a test", Toast.LENGTH_SHORT).show();
     }
 
-    public class GetData extends AsyncTask<Void,Void,String>{
+    private class GetData extends AsyncTask<Void,Void,String>{
 
-        ProgressDialog progressDialog = new ProgressDialog(MainActivity.this);
+        ProgressDialog progressDialog ;
         Context context;
 
         public GetData(Context context){
 
             this.context = context;
+            //progressDialog = new ProgressDialog(MainActivity.this);
         }
 
         @Override
