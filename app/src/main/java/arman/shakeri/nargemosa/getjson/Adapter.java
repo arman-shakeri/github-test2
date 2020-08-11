@@ -34,6 +34,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.EmployeeViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull EmployeeViewHolder holder, final int position) {
 
+        //this is just a test
         model model = list.get(position);
         holder.txtJobTitle.setText(model.getJobTitle());
         holder.txtName.setText(model.getName());
