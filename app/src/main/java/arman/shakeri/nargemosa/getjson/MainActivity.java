@@ -33,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setAdapter(adapter);
 
         new GetData(MainActivity.this).execute();
+
+        thisIsTest();
     }
     
     public void thisIsTest(){
