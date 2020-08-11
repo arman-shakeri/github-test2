@@ -34,7 +34,9 @@ public class MainActivity extends AppCompatActivity {
 
         new GetData(MainActivity.this).execute();
 
-        //thisIsTest();
+        //this is a test
+        Toast.makeText(this, "this is a test", Toast.LENGTH_SHORT).show();
+        thisIsTest();
     }
     
     public void thisIsTest(){
