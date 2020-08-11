@@ -34,6 +34,11 @@ public class MainActivity extends AppCompatActivity {
 
         new GetData(MainActivity.this).execute();
     }
+    
+    public void thisIsTest(){
+    
+        //this is a test
+    }
 
     public class GetData extends AsyncTask<Void,Void,String>{
 
