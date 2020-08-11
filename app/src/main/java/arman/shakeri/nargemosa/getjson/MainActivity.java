@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
         new GetData(MainActivity.this).execute();
 
-        thisIsTest();
+        //thisIsTest();
     }
     
     public void thisIsTest(){
