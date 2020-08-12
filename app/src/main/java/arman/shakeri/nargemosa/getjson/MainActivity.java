@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         public GetData(Context context){
 
             this.context = context;
-            //progressDialog = new ProgressDialog(MainActivity.this);
+            progressDialog = new ProgressDialog(MainActivity.this);
         }
 
         @Override
